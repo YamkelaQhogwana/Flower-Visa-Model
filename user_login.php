@@ -47,7 +47,6 @@ if(isset($_POST['submit'])){
       <input type="submit" value="LOGIN" class="btn" name="submit">
       <p>NO ACCOUNT?</p>
       <a href="user_register.php" class="option-btn">REGISTER</a>
-      <a href="admin/admin_login.php" class="option-btn">ADMIN LOGIN</a>
    </form>
 </section>
 <?php include 'components/footer.php'; ?>
