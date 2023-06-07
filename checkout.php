@@ -1,15 +1,9 @@
 <?php
 
 include 'components/connect.php';
+$user_id = '1';
 
-session_start();
 
-if(isset($_SESSION['user_id'])){
-   $user_id = $_SESSION['user_id'];
-}else{
-   $user_id = '';
-   header('location:user_login.php');
-};
 
 if(isset($_POST['order'])){
 

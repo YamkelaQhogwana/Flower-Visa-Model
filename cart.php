@@ -1,12 +1,9 @@
 <?php
 include 'components/connect.php';
-session_start();
-if(isset($_SESSION['user_id'])){
-   $user_id = $_SESSION['user_id'];
-}else{
-   $user_id = '';
-   header('location:user_login.php');
-};
+
+   $user_id = '1';
+
+
 
 if(isset($_POST['delete'])){
    $cart_id = $_POST['cart_id'];
